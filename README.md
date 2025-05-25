@@ -1,60 +1,70 @@
-# 🎨 Custom QR Code Generator
+# Getting Started with Create React App
 
-A fully customizable QR code generator built with React. Users can tweak colors, add logos, set shapes, themes, error correction levels, and download the generated QR code in PNG, JPEG, or SVG formats.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🔧 Features
+In the project directory, you can run:
 
-- ✅ Enter custom text or upload a file to generate QR data
-- 🎨 Foreground gradient, background, and eye color pickers (via `react-color`)
-- 🟦 Add a logo/image at the center of the QR code
-- 🔲 Customize dot and eye styles
-- 📏 Adjustable QR size
-- 🛠️ Set error correction levels (L, M, Q, H)
-- 🌗 Light/Dark theme toggle
-- 📸 Preview area with animation
-- 💾 Download as PNG, JPEG, or SVG
-- 📱 Fully responsive UI (mobile & desktop)
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 📦 Tech Stack
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **React** (frontend library)
-- **qr-code-styling** for dynamic QR code generation
-- **html-to-image** for image manipulation
-- **react-color (ChromePicker)** for color input
-- **Vite / Create React App** (choose based on your setup)
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🚀 Getting Started
+### `npm run build`
 
-### 1. Clone the Repository
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-git clone https://github.com/karthideveloper/qr-code.git
-cd custom-qr-code
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-📝 TODO
-Add history and saved QR presets
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Support animated QR styles
+### `npm run eject`
 
-Add dark mode toggle on UI
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Add unit tests for QR logic
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-💡 Tips
-Keep logos under 25% of QR size for better scanning reliability.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Use high error correction levels (H) when adding logos.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Use SVG format for vector-based QR if you want to scale without quality loss.
+## Learn More
 
-🧾 License
-This project is licensed under the MIT License.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-👨‍💻 Author
-Developed by Karthikeyak kathirvel
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
